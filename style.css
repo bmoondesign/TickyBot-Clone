@@ -52,7 +52,6 @@ p {
 
 .slack-cta {
     border: 0px;
-    color: #444444;
     font-size: 1.6rem;
     max-width: 300px;
     padding: 1rem;
@@ -82,7 +81,7 @@ h2 {
     color: rgba(0,0,0,.75);
 }
 
-.about-content {
+.content-padding {
     padding-bottom: 32px;
 }
 
@@ -109,9 +108,38 @@ h2 {
     padding: 1rem;
 }
 
+.feature-content a {
+    text-decoration: underline;
+}
+
 code {
     background-color: rgba(0,0,0,.05);
     color: crimson;
     font-size: 1rem;
     padding: 0.2rem;
+}
+
+#slack {
+    text-align: center;
+}
+
+.extra-margin {
+    margin: 100px 0;
+}
+
+.footer {
+    background-color: #22252b;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer p {
+    font-size: 0.85rem;
+    margin-bottom: 4px;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: underline;
 }
